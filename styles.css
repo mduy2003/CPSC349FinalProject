@@ -1,0 +1,79 @@
+/* Import Montserrat and Lato fonts for navbar and headings */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:700,400&display=swap');
+
+/* Custom styles to override Bootstrap defaults */
+body {
+    font-family: Calibri, sans-serif;
+    line-height: 1.6;
+    /* Use a smoother gradient with more gradual color transition */
+    background: linear-gradient(120deg, #ffffff 0%, #ffe5b4 60%, #4d0719 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    background-color: #4d0719;
+    font-family: 'Montserrat';
+    font-size: 3vh;
+}
+
+.navbar-brand {
+    font-size: 4vh;
+    color: #fff !important;
+}
+
+.container {
+    max-width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4d0719;
+    background: #ffffff;
+    border-left: 5px solid #4d0719;
+    padding: 0.75rem 1rem;
+    margin-top: 2rem;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 2px 2px 8px rgba(77,7,25,0.05);
+    display: inline-block;
+}
